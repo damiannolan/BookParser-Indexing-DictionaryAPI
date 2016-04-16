@@ -15,7 +15,7 @@ public class StopWords
 	
 	public StopWords(String fileName)
 	{
-	//Provide the path to stopwords.txt and add to TreeSet	
+		//Provide the path to stopwords.txt and add to TreeSet	
 		try 
 		{
 			Scanner ignoreFile = new Scanner(new File(fileName));

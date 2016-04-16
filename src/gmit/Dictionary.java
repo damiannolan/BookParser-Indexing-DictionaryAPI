@@ -35,6 +35,9 @@ public class Dictionary
 			{
 				if(nextLine.charAt(0) == '"')
 				{
+					//Get the word which will be used as a key in the dictionary map
+					//This is a substring of nextLine starting at index 1 (after the first quotation mark)
+					//And ending at the second occurrence of a quotation mark
 					String word = nextLine.substring(1, nextLine.indexOf('"', 1));
 					
 					do
